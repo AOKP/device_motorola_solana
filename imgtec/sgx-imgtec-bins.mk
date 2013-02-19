@@ -1,5 +1,5 @@
 # Graphics/IMGTEC
-ifeq ($(TARGET_DEVICE),solana)
+ifeq ($(TARGET_PRODUCT),aokp_solana)
 SGX_LOCAL_PATH := device/motorola/solana/imgtec
 
 SGX_MODULES:
