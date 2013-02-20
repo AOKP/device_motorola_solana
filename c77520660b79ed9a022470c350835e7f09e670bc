@@ -1,0 +1,8 @@
+Change-Id: Ic77520660b79ed9a022470c350835e7f09e670bc
+Code-Review+2: David Hacker <davidhackerdvm@gmail.com>
+Verified+1: David Hacker <davidhackerdvm@gmail.com>
+Submitted-by: David Hacker <davidhackerdvm@gmail.com>
+Submitted-at: Wed, 20 Feb 2013 21:25:14 +0000
+Reviewed-on: http://gerrit.sudoservers.com/6851
+Project: AOKP/device_motorola_solana
+Branch: refs/heads/jb-mr1
