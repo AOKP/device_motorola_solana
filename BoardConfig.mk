@@ -19,6 +19,8 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
+DEVICE_FOLDER := device/motorola/solana
+
 ifeq ($(TARGET_DEVICE),solana)
 BOARD_USES_KEXEC := true
 endif
@@ -27,7 +29,8 @@ COMMON_GLOBAL_CFLAGS += -DBOARD_USES_KEXEC
 endif
 
 # includes fix for framebuffer
-TARGET_SPECIFIC_HEADER_PATH := device/motorola/solana/include
+PRODUCT_VENDOR_KERNEL_HEADERS := $(DEVICE_FOLDER)/kernel-headers
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_FOLDER)/include
 
 # Camera
 USE_CAMERA_STUB := false
