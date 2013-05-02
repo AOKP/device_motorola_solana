@@ -283,3 +283,11 @@ hwui.render_dirty_regions=false
 persist.sys.root_access=3
 ro.hwc.legacy_api=true
 ro.product.use_charge_counter=1
+
+# hardware info
+ro.device.chipset=TI OMAP 4430
+ro.device.cpu=1 GHz dual-core Cortex-A9
+ro.device.gpu=PowerVR SGX540
+ro.device.rear_cam=8 MP
+ro.device.front_cam=VGA
+ro.device.screen_res=540x960
